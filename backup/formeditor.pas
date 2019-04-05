@@ -144,7 +144,7 @@ Form_ToolsForm.Visible:=True;
   end;
   if Event.Pressed=[mbLeft] then
   begin
-  Case ToolIndex of
+  с
   1:begin
     if CastleControl_Form.SceneManager.MouseRayHit<>nil then
     begin
@@ -179,14 +179,16 @@ end;
 
 procedure TForm_FormEditor.CastleControl_FormMouseEnter(Sender: TObject);
 begin
-   if CastleControl_Form.MousePressed[mbLeft] then
+   if CastleControl_Form.MousePressed=[mbLeft] then
   begin
+  Case ToolIndex of
    2: if CastleControl_Form.SceneManager.MouseRayHit<>nil then
     begin
    { CastleControl_Form.SceneManager.MouseRayHit.First.Item.Rotation:=Vector4(CastleControl_Form.SceneManager.MouseRayHit.First.Item.Center,sqrt(sqr(CastleControl_Form.MousePosition.X))+sqr(CastleControl_Form.MousePosition.Y));}
     Form_ToolForm.Visible:=True;
     Tool1Index:=1;
     end;
+   end;
   end;
 end;
 
