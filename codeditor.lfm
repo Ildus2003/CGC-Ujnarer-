@@ -1,0 +1,44 @@
+object Form_CodEditor: TForm_CodEditor
+  Left = 250
+  Height = 446
+  Top = 157
+  Width = 636
+  Caption = 'Редактор Кода'
+  ClientHeight = 446
+  ClientWidth = 636
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '2.0.0.4'
+  object PageControl_CodEditor: TPageControl
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 0
+    Height = 401
+    Top = 23
+    Width = 636
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Top = 23
+    BorderSpacing.Bottom = 22
+    TabOrder = 0
+    OnCloseTabClicked = PageControl_CodEditorCloseTabClicked
+  end
+  object StatusBar_CodEditor: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 423
+    Width = 636
+    Panels = <>
+  end
+  object ToolBar_CodEditor: TToolBar
+    Left = 0
+    Height = 26
+    Top = 0
+    Width = 636
+    Caption = 'ToolBar_CodEditor'
+    TabOrder = 2
+  end
+end

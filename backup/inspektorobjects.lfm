@@ -1,0 +1,86 @@
+object Form_ObjectInspektor: TForm_ObjectInspektor
+  Left = 840
+  Height = 448
+  Top = 0
+  Width = 258
+  Caption = 'Form_ObjectInspektor'
+  ClientHeight = 448
+  ClientWidth = 258
+  OnCreate = FormCreate
+  LCLVersion = '2.0.0.4'
+  Visible = True
+  object StatusBar_InspektorObjects: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 425
+    Width = 258
+    Panels = <>
+  end
+  object TreeView_InspektorObjects: TTreeView
+    AnchorSideBottom.Control = Splitter_InspektorObjects
+    Left = 1
+    Height = 132
+    Top = 28
+    Width = 255
+    Anchors = [akTop, akLeft, akBottom]
+    TabOrder = 1
+    OnEdited = TreeView_InspektorObjectsEdited
+    OnEditing = TreeView_InspektorObjectsEditing
+    OnEditingEnd = TreeView_InspektorObjectsEditingEnd
+    Items.Data = {
+      F9FFFFFF020001000000FFFFFFFF00000000FFFFFFFFFFFFFFFF000000000000
+      00000004000000466F726D
+    }
+  end
+  object Label_InspektorObjects1: TLabel
+    Left = 4
+    Height = 15
+    Top = 5
+    Width = 49
+    Caption = 'Объекты'
+    ParentColor = False
+  end
+  object TreeFilterEdit_InspektorObjects: TTreeFilterEdit
+    Left = 56
+    Height = 23
+    Top = 2
+    Width = 200
+    ButtonWidth = 23
+    NumGlyphs = 1
+    MaxLength = 0
+    TabOrder = 2
+  end
+  object Splitter_InspektorObjects: TSplitter
+    Cursor = crVSplit
+    Left = 0
+    Height = 8
+    Top = 160
+    Width = 256
+    Align = alNone
+    ResizeAnchor = akTop
+  end
+  object Panel1: TPanel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Splitter_InspektorObjects
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = StatusBar_InspektorObjects
+    Left = 0
+    Height = 257
+    Top = 168
+    Width = 258
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ClientHeight = 257
+    ClientWidth = 258
+    TabOrder = 4
+    object Label_InspektorObjects2: TLabel
+      Left = 4
+      Height = 15
+      Top = 16
+      Width = 51
+      Caption = 'Свойства'
+      ParentColor = False
+    end
+  end
+end

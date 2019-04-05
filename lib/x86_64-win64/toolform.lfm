@@ -1,0 +1,50 @@
+object Form_ToolForm: TForm_ToolForm
+  Left = 685
+  Height = 92
+  Top = 263
+  Width = 259
+  Caption = 'Form_ToolForm'
+  ClientHeight = 92
+  ClientWidth = 259
+  OnActivate = FormActivate
+  LCLVersion = '2.0.0.4'
+  object TrackBar1: TTrackBar
+    Left = 8
+    Height = 25
+    Top = 24
+    Width = 192
+    Frequency = 10
+    Max = 668
+    Min = 1
+    OnChange = TrackBar1Change
+    PageSize = 4
+    Position = 1
+    TabOrder = 0
+    Visible = False
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 69
+    Width = 259
+    Panels = <    
+      item
+        Width = 50
+      end    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
+    Visible = False
+  end
+  object UpDown1: TUpDown
+    Left = 216
+    Height = 39
+    Top = 16
+    Width = 24
+    Min = 0
+    Position = 0
+    TabOrder = 2
+    Visible = False
+  end
+end

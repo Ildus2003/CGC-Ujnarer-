@@ -1,0 +1,178 @@
+object Form_Main: TForm_Main
+  Left = 63
+  Height = 90
+  Top = 105
+  Width = 1360
+  Caption = 'CGE-Castle Game Editor'
+  ClientHeight = 70
+  ClientWidth = 1360
+  Constraints.MaxHeight = 90
+  Constraints.MaxWidth = 1360
+  Constraints.MinHeight = 30
+  Constraints.MinWidth = 30
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '2.0.0.4'
+  object TabControl1: TTabControl
+    AnchorSideLeft.Control = Splitter1
+    AnchorSideLeft.Side = asrBottom
+    Left = 171
+    Height = 70
+    Top = 0
+    Width = 1189
+    Align = alClient
+    Anchors = [akTop, akLeft, akBottom]
+    TabOrder = 0
+  end
+  object CoolBar1: TCoolBar
+    Left = 0
+    Height = 70
+    Top = 0
+    Width = 171
+    Align = alLeft
+    Bands = <    
+      item
+        ImageIndex = 0
+        ParentBitmap = False
+      end>
+    Images = ImageList1
+    object Splitter1: TSplitter
+      AnchorSideLeft.Side = asrBottom
+      Left = 169
+      Height = 70
+      Top = 2
+      Width = 7
+      Align = alNone
+      Anchors = [akTop, akLeft, akRight]
+    end
+  end
+  object MainMenu1: TMainMenu
+    left = 8
+    top = 704
+    object MenuItem_File: TMenuItem
+      Caption = 'Файл'
+      object MenuItem_Create: TMenuItem
+        Caption = 'Создать...'
+        ShortCut = 16462
+      end
+      object MenuItem3: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem_Open: TMenuItem
+        Caption = 'Открыть'
+        ShortCut = 16463
+      end
+      object MenuItem_Save: TMenuItem
+        Caption = 'Сохранить'
+        ShortCut = 16467
+      end
+      object MenuItem_SaveAs: TMenuItem
+        Caption = 'Сохранить как'
+      end
+      object MenuItem_Exit: TMenuItem
+        Caption = 'Выйти'
+      end
+    end
+    object MenuItem_View: TMenuItem
+      Caption = 'Вид'
+      object MenuItem_Switch: TMenuItem
+        Caption = 'Переключить форму/модуль'
+        ShortCut = 123
+      end
+    end
+    object MenuItem_Project: TMenuItem
+      Caption = 'Проект'
+      object MenuItem_AddObject: TMenuItem
+        Caption = 'Добавить объект'
+        ShortCut = 24654
+        OnClick = MenuItem_AddObjectClick
+      end
+    end
+    object MenuItem_compilation: TMenuItem
+      Caption = 'Компиляция'
+      object MenuItem_Compilation1: TMenuItem
+        Caption = 'Компилировать'
+      end
+      object MenuItem_Parameter_Compilation: TMenuItem
+        Caption = 'Параметры компиляции'
+      end
+    end
+    object MenuItem_Package: TMenuItem
+      Caption = 'Пакет'
+      Visible = False
+      object MenuItem1: TMenuItem
+      end
+    end
+    object MenuItem_Service: TMenuItem
+      Caption = 'Сервис'
+      Visible = False
+      object MenuItem_Convert: TMenuItem
+        Caption = 'Преобразовать проект Scratch '
+      end
+    end
+    object MenuItem_Window: TMenuItem
+      Caption = 'Окно'
+      Visible = False
+    end
+    object MenuItem_help: TMenuItem
+      Caption = 'Справка'
+      object MenuItem_Site: TMenuItem
+        Caption = 'Наш сайт'
+      end
+      object MenuItem2: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem_About: TMenuItem
+        Caption = 'О проекте'
+      end
+    end
+  end
+  object ImageList1: TImageList
+    left = 1304
+    top = 8
+    Bitmap = {
+      4C69010000001000000010000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FC00FFFFF700A27D62FFB9987EFFB9987EFFA27D62FFFFFFF700FFFFFC00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FB00FFFFF200B9987EFFE8CDB8FFE8CDB8FFB9987EFFFFFFF200FFFFFA00FFFF
+      FF00FFFFFE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFC00FFFFFB00FFFF
+      F500FFFFED00B9987EFFE8CDB8FFE8CDB8FFB9987EFFFFFFEB00FFFFF500FFFF
+      F900FFFFFC00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFF700FFFFF200FFFF
+      EB00FFFFE600B9987EFFE8CDB8FFE8CDB8FFB9987EFFFFFFE600FFFFEB00FFFF
+      F100FFFFF700FFFFFF00FFFFFF00FFFFFF00FFFFFF00A27D62FFB9987EFFB998
+      7EFFB9987EFFD1B29BFFE8CDB8FFE8CDB8FFD1B29BFFB9987EFFB9987EFFB998
+      7EFFA27D62FFFFFFFF00FFFFFF00FFFFFF00FFFFFF00B9987EFFE8CDB8FFE8CD
+      B8FFE8CDB8FFE8CDB8FFE8CDB8FFE8CDB8FFE8CDB8FFE8CDB8FFE8CDB8FFE8CD
+      B8FFB9987EFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00B9987EFFE8CDB8FFE8CD
+      B8FFE8CDB8FFE8CDB8FFE8CDB8FFE8CDB8FFE8CDB8FFE8CDB8FFE8CDB8FFE8CD
+      B8FFB9987EFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00A27D62FFB9987EFFB998
+      7EFFB9987EFFD1B29BFFE8CDB8FFE8CDB8FFD1B29BFFB9987EFFB9987EFFB998
+      7EFFA27D62FFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFF800FFFFF200FFFF
+      ED00FFFFE600B9987EFFE8CDB8FFE8CDB8FFB9987EFFFFFFE600FFFFED00FFFF
+      F200FFFFF700FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFC00FFFFFB00FFFF
+      F500FFFFED00B9987EFFE8CDB8FFE8CDB8FFB9987EFFFFFFEB00FFFFF500FFFF
+      FB00FFFFFC00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FB00FFFFF200B9987EFFE8CDB8FFE8CDB8FFB9987EFFFFFFF200FFFFFB00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FC00FFFFF700A27D62FFB9987EFFB9987EFFA27D62FFFFFFF700FFFFFC00FDFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00
+    }
+    BitmapAdv = {
+      4C69010000004C7A010000002000000020000000BD0000000000000078DAED96
+      410E82400C45B99C17F1389CC84B700D62625848621014AB19FF0F1BA0901953
+      305DBC5DFB5F32309D8A48268E33C9133481FC7890395837F4A5F79F8BD328BF
+      F13F401DD0FD356A3BC09C17D8BA9FE746EF0D5401DD7FC9BEB0AF054BBF87B5
+      9FFF0FCF91796540F797A865DF153077DB7EED7E6B7E7D3EE8FEA9FC58DCEFFE
+      3DF82DEF9FC81D70FE5460EDFC611F7396CE3F6B7FEAF7873956EFDF5A7FAAFD
+      837D56FB572A7FDCFED97F327AC3FD3BDEEFFC336F7C4505BD
+    }
+  end
+end

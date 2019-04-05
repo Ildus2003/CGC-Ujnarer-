@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: CGC\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: tform_codeditor.caption
+msgid "Редактор Кода"
+msgstr ""
+
+#: tform_codeditor.toolbar_codeditor.caption
+msgid "ToolBar_CodEditor"
+msgstr ""
+
+#: tform_formeditor.caption
+msgctxt "tform_formeditor.caption"
+msgid "Редактор формы"
+msgstr "Form Editor"
+
+#: tform_formeditor.menuitem_formeditor.caption
+msgid "Инструменты"
+msgstr ""
+
+#: tform_main.caption
+msgid "CGC-Castle Game Constructor"
+msgstr "CGC-Castle Game Constructor"
+
+#: tform_main.menuitem_about.caption
+msgid "О проекте"
+msgstr "About the project"
+
+#: tform_main.menuitem_addobject.caption
+msgid "Добавить объект"
+msgstr "Add object"
+
+#: tform_main.menuitem_codeditor.caption
+msgid "Редактор кода"
+msgstr ""
+
+#: tform_main.menuitem_compilation.caption
+msgid "Компиляция"
+msgstr "Compilation"
+
+#: tform_main.menuitem_compilation1.caption
+msgid "Компилировать"
+msgstr "Compile"
+
+#: tform_main.menuitem_convert.caption
+msgid "Преобразовать проект Scratch "
+msgstr "Convert a project from Scratch"
+
+#: tform_main.menuitem_create.caption
+msgid "Создать..."
+msgstr "Create..."
+
+#: tform_main.menuitem_english.caption
+msgid "English"
+msgstr ""
+
+#: tform_main.menuitem_exit.caption
+msgid "Выйти"
+msgstr "Exit"
+
+#: tform_main.menuitem_file.caption
+msgid "Файл"
+msgstr "File"
+
+#: tform_main.menuitem_formeitor.caption
+#, fuzzy
+msgctxt "tform_main.menuitem_formeitor.caption"
+msgid "Редактор формы"
+msgstr "Form Editor"
+
+#: tform_main.menuitem_help.caption
+msgid "Справка"
+msgstr "Help"
+
+#: tform_main.menuitem_inspektorobjects.caption
+msgid "Инспектор объектов"
+msgstr ""
+
+#: tform_main.menuitem_language.caption
+msgid "Язык"
+msgstr ""
+
+#: tform_main.menuitem_open.caption
+msgid "Открыть"
+msgstr "Open"
+
+#: tform_main.menuitem_package.caption
+msgid "Пакет"
+msgstr "Package"
+
+#: tform_main.menuitem_parameter_compilation.caption
+msgid "Параметры компиляции"
+msgstr "Compile options"
+
+#: tform_main.menuitem_project.caption
+msgid "Проект"
+msgstr "Project"
+
+#: tform_main.menuitem_russia.caption
+msgid "Русский"
+msgstr ""
+
+#: tform_main.menuitem_save.caption
+msgid "Сохранить"
+msgstr "Save"
+
+#: tform_main.menuitem_saveas.caption
+msgid "Сохранить как"
+msgstr "Save as"
+
+#: tform_main.menuitem_service.caption
+msgid "Сервис"
+msgstr "Service"
+
+#: tform_main.menuitem_site.caption
+msgid "Наш сайт"
+msgstr "Our site"
+
+#: tform_main.menuitem_switch.caption
+msgid "Переключить редактор формы/кода"
+msgstr "Toggle form/code editor"
+
+#: tform_main.menuitem_view.caption
+msgid "Вид"
+msgstr "View"
+
+#: tform_main.menuitem_window.caption
+msgid "Окно"
+msgstr "Window"
+
+#: tform_main.tabsheet1_main.caption
+msgid "Стандартные"
+msgstr "Standard"
+
+#: tform_main.toolbar_main.caption
+msgid "ToolBar_Main"
+msgstr ""
+
+#: tform_main.toolbutton1.caption
+msgctxt "tform_main.toolbutton1.caption"
+msgid "ToolButton1"
+msgstr ""
+
+#: tform_main.toolbutton2.caption
+msgctxt "tform_main.toolbutton2.caption"
+msgid "ToolButton2"
+msgstr ""
+
+#: tform_main.toolbutton3.caption
+msgid "ToolButton3"
+msgstr ""
+
+#: tform_main.toolbutton4.caption
+msgid "ToolButton4"
+msgstr ""
+
+#: tform_main.toolbutton_addobject.caption
+msgid "ToolButton_AddObject"
+msgstr ""
+
+#: tform_main.toolbutton_save.caption
+msgid "ToolButton_Save"
+msgstr ""
+
+#: tform_objectinspektor.caption
+msgid "Form_ObjectInspektor"
+msgstr ""
+
+#: tform_objectinspektor.label_inspektorobjects1.caption
+msgctxt "tform_objectinspektor.label_inspektorobjects1.caption"
+msgid "Объекты"
+msgstr ""
+
+#: tform_objectinspektor.label_inspektorobjects2.caption
+msgid "Свойства"
+msgstr ""
+
+#: tform_toolform.caption
+msgctxt "tform_toolform.caption"
+msgid "Form_ToolForm"
+msgstr ""
+
+#: tform_toolsform.caption
+msgctxt "tform_toolsform.caption"
+msgid "Инструменты редакторы формы"
+msgstr ""
+
+#: tform_toolsform.toolbutton1.caption
+msgctxt "tform_toolsform.toolbutton1.caption"
+msgid "ToolButton1"
+msgstr ""
+
+#: tform_toolsform.toolbutton1.hint
+msgctxt "tform_toolsform.toolbutton1.hint"
+msgid "Переместить"
+msgstr ""
+
+#: tform_toolsform.toolbutton2.caption
+msgctxt "tform_toolsform.toolbutton2.caption"
+msgid "ToolButton2"
+msgstr ""
+
