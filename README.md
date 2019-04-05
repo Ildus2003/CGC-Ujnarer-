@@ -1,2 +1,2 @@
 # CGC (Ujnarer)
-Среда разработки 2D игр методом создания кода из упорядоченных кирпичиков, имеющих определенную команду.
+A development environment for 2D games by creating code from ordered bricks with a specific command.
